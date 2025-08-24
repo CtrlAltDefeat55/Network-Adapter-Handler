@@ -49,8 +49,6 @@ coverage/
 *.gcno
 *.gcov
 
-# By request: ignore all images & videos
-# (Remove specific extensions below if you want to track screenshots/assets)
 # Images
 *.png
 *.jpg
