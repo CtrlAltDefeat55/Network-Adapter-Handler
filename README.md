@@ -10,7 +10,7 @@ A Windows-only PowerShell WPF app to **view, filter, and bulk enable/disable net
 ## Table of Contents
 
 - [Features](#features)
-- [Screenshot](#screenshot)
+- [User Interface](#ui)
 - [Installation](#installation)
 - [Usage](#usage)
   - [Filtering & selection](#filtering--selection)
@@ -38,18 +38,9 @@ A Windows-only PowerShell WPF app to **view, filter, and bulk enable/disable net
 - **Optional “No-UAC” launcher:** create a **Scheduled Task (Highest, Interactive)** and a **Desktop shortcut** that runs the exported script **without** a UAC prompt
 - **Self-elevation:** the GUI relaunches as admin in **STA** (required for WPF)
 
-## Screenshot
+## UI
 
-Add a screenshot at `assets/screenshot.png` and reference it here:
-
-```md
-![App screenshot](assets/screenshot.png)
-```
-
-> Note: This repo’s `.gitignore` ignores image/video files by default (per project request).  
-> To check screenshots in, remove those extensions from `.gitignore`.
-
----
+<img width="1677" height="782" alt="NEtwork Adapter UI" src="https://github.com/user-attachments/assets/1a9e009a-3b01-4cb7-b2ac-9e15a92da7f0" />
 
 ## Installation
 
