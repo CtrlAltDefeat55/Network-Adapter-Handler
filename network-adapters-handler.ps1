@@ -1,15 +1,3 @@
-<# 
-    Network Adapter Manager (WPF)
-    Fixes:
-      - ScheduledTask LogonType=Interactive
-      - Correct MessageBox overload (YesNo + icon)
-      - Fixed join precedence in confirm list
-      - Selections persist after actions
-      - Auto-load profile on startup (if present)
-      - Window widened to 1300
-      - "Create No-UAC..." checkbox checked by default
-#>
-
 #region --- Self-Elevation + STA relaunch ---
 function Start-SelfElevatedSta {
     try {
